@@ -1,12 +1,12 @@
 ﻿# DjangoPermission_News
 **Admin account in admin page to log in and create accounts to access website**:\\
-_admin@company.vn
-_admin
+email: admin@company.vn
+password: admin
 ****\\
 
 **Sample user account to log in and read news on the website**:\\
-_user1@company.vn
-_password
+email: user1@company.vn
+password: password
 
 ****\\
 **Website layout**:
