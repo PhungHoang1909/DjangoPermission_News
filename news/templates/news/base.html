@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}News Website{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pastel-gray text-pastel-blue">
+    <header class="bg-pastel-blue text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl">News Website</h1>
+        {% if user.is_authenticated %}
+            <a href="{% url 'logout' %}" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Logout</a>
+        {% endif %}
+    </header>
+    <main class="p-4">
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
