@@ -1,14 +1,14 @@
 ﻿# DjangoPermission_News
-**Admin account in admin page to log in and create accounts to access website**:
+**Admin account in admin page to log in and create accounts to access website**:\\
 _admin@company.vn
 _admin
-****
+****\\
 
-**Sample user account to log in and read news on the website**:
+**Sample user account to log in and read news on the website**:\\
 _user1@company.vn
 _password
 
-****
+****\\
 **Website layout**:
 ![3](https://github.com/PhungHoang1909/DjangoPermission_News/assets/106148071/92be117b-5f27-4929-ae0d-917cec69fcda)
 ![4](https://github.com/PhungHoang1909/DjangoPermission_News/assets/106148071/7275464f-8775-427d-82a7-8d4e74ec5ed9)
